@@ -1,11 +1,10 @@
-@import "./base.css";
-
 .calc{
-  border: 3px solid #8a88ff;
+  border: 3px solid #08631f;
   padding: 30px;
   max-width: 830px;
   display: block;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -13,13 +12,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1 {
+  text-align: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
 }
-.valores-forms {
+.values-forms {
   display: grid;
   margin-top: 17px;
 }
@@ -27,17 +31,15 @@ input, select{
   height: 30px;
   padding-left: 10px;
 }
-strong {
-  text-decoration: underline solid #8a88ff;
-}
 span{
   margin-left: 5px;
 }
 label{
-  font-size: 1.1em;
+  font-size: 1.4em;
+  text-align: center;
 }
 .resultado {
-  background-color: #8a88ff;
+  background-color: #08631f;
   display: flex;
   padding: 30px;
   align-items: center;
