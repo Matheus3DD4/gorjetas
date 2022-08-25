@@ -14,19 +14,15 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Bungee Shade', cursive;
-  color: #064f18;
+  color: #053f13;
 }
 
-h1 {
-  text-align: center;
-}
+h1 { text-align: center; }
 
 h2 { font-weight: 900; }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
+main {  display: flex;
+  flex-direction: column; }
 
 .values-forms {
   display: grid;
@@ -36,6 +32,8 @@ main {
 input, select{
   height: 30px;
   padding-left: 10px;
+  background-color: #d1d1d15a;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 span{
@@ -52,7 +50,7 @@ label{
 
 .resultado {
   border-radius:0px 0px 15px 15px; 
-  background-color: #08631f;
+  background-color: #043a12;
   display: flex;
   padding: 30px;
   align-items: center;
